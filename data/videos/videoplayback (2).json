@@ -1,0 +1,557 @@
+[
+  {
+    "start": 0.0,
+    "end": 5.28,
+    "text": "Hey everyone, so one of my friends called me last week, he is actually switching careers and ask"
+  },
+  {
+    "start": 5.28,
+    "end": 11.200000000000001,
+    "text": "me this question, Barra tell me, what is the fastest way to learn Python and can you guide me"
+  },
+  {
+    "start": 11.200000000000001,
+    "end": 17.2,
+    "text": "with a roadmap? So I started drafting and sketching a roadmap for him and I thought why not"
+  },
+  {
+    "start": 17.2,
+    "end": 22.56,
+    "text": "sharing it with you? I learned Python about 10 years ago while I was working as a data engineer"
+  },
+  {
+    "start": 22.56,
+    "end": 27.68,
+    "text": "and an analyst, but the thing is it took me almost two years to feel confident with Python,"
+  },
+  {
+    "start": 27.68,
+    "end": 32.8,
+    "text": "but today things are totally different, we have amazing resources, we have AI tools,"
+  },
+  {
+    "start": 32.8,
+    "end": 38.480000000000004,
+    "text": "communities and experts that are sharing their knowledge that could help you reach an intermediate"
+  },
+  {
+    "start": 38.480000000000004,
+    "end": 46.0,
+    "text": "level in just a few months. So now I'm going to show you step by step how to learn Python fast."
+  },
+  {
+    "start": 46.0,
+    "end": 50.8,
+    "text": "So let's dive in. Okay, now I know at the start you all have the same question,"
+  },
+  {
+    "start": 50.8,
+    "end": 56.32,
+    "text": "why we still have to learn Python and coding? When we have AI, AI can do it even better than us,"
+  },
+  {
+    "start": 56.8,
+    "end": 62.8,
+    "text": "well of course yes, AI can write code, but it also makes mistakes, sometimes dangerous ones,"
+  },
+  {
+    "start": 62.8,
+    "end": 68.88,
+    "text": "especially if you are working on big projects, no one actually takes an AI code straight away"
+  },
+  {
+    "start": 68.88,
+    "end": 74.56,
+    "text": "to the production, it is very risky. So that's why on projects we still need human"
+  },
+  {
+    "start": 74.56,
+    "end": 80.56,
+    "text": "experience to check if the answers make sense to review it and as well to make sure it is actually"
+  },
+  {
+    "start": 80.56,
+    "end": 86.16,
+    "text": "meeting their requirements. This is exactly why you need to understand what the code is doing,"
+  },
+  {
+    "start": 86.16,
+    "end": 92.4,
+    "text": "how to maintain it and how to fix it, and there is as well a key difference, there is a huge gap between"
+  },
+  {
+    "start": 92.4,
+    "end": 100.48,
+    "text": "consuming AI and building an AI. Python is the main language behind building and training AI models."
+  },
+  {
+    "start": 100.48,
+    "end": 106.08,
+    "text": "So you can use AI to generate Python code, but you need Python in order to build an AI,"
+  },
+  {
+    "start": 106.08,
+    "end": 110.96,
+    "text": "and as well Python's still one of the most in demand language in the world, whether you are"
+  },
+  {
+    "start": 110.96,
+    "end": 117.52,
+    "text": "that engineer, analyst, scientist, web and game developer, we all use Python. So that's why you still"
+  },
+  {
+    "start": 117.52,
+    "end": 122.08,
+    "text": "have to learn Python. And now there is something that I want you to understand before you start learning"
+  },
+  {
+    "start": 122.08,
+    "end": 130.56,
+    "text": "Python, keep in mind this golden rule, spend 20% of your time consuming and 80% coding. So that's"
+  },
+  {
+    "start": 130.56,
+    "end": 136.8,
+    "text": "means my friend less watching and more doing because it is very simple, you don't learn Python by"
+  },
+  {
+    "start": 136.8,
+    "end": 142.96,
+    "text": "just watching someone else coding, you learn it by doing it yourself. So that's means my friend less"
+  },
+  {
+    "start": 142.96,
+    "end": 148.48000000000002,
+    "text": "watching and more doing. Alright my friends, so with that we have now the right mindset and now I'm"
+  },
+  {
+    "start": 148.48000000000002,
+    "end": 154.08,
+    "text": "going to show you the roadmap that I have shared with my friend and it is divided into five symbol faces."
+  },
+  {
+    "start": 154.08,
+    "end": 160.24,
+    "text": "That first face is to prepare your setup and here we have to make a few small but important decisions."
+  },
+  {
+    "start": 160.24,
+    "end": 166.16,
+    "text": "The third thing to do is to pick only one course so that you follow only one instructor and one"
+  },
+  {
+    "start": 166.16,
+    "end": 171.68,
+    "text": "style. And now since our golden rule says practice more than consuming, I'm going to recommend you"
+  },
+  {
+    "start": 171.68,
+    "end": 177.28,
+    "text": "DataCab if you are starting out with Python. It is super interactive, you're going to write code"
+  },
+  {
+    "start": 177.28,
+    "end": 181.84,
+    "text": "right inside the platform and you're going to get instant feedback as you go. Now DataCab is"
+  },
+  {
+    "start": 181.84,
+    "end": 186.8,
+    "text": "sponsoring this video. Thank you so much for that. I'm happy about it because they have built exactly"
+  },
+  {
+    "start": 186.8,
+    "end": 191.68,
+    "text": "what I wish I had when I started many years ago. Now if you are a total beginner, I'm going to"
+  },
+  {
+    "start": 191.68,
+    "end": 197.44,
+    "text": "recommend you to start with the Python Data Fundamentals. It covers all the basics, variable loops,"
+  },
+  {
+    "start": 197.44,
+    "end": 202.8,
+    "text": "how to work with data, but it's basically the same roadmap that I'm going to suggest actually later."
+  },
+  {
+    "start": 202.8,
+    "end": 208.32000000000002,
+    "text": "So this track is for total beginners. Now moving on if you are planning to be a data analyst,"
+  },
+  {
+    "start": 208.32000000000002,
+    "end": 213.12,
+    "text": "then I'm going to recommend the track Data Analyst in Python. Here you're going to start learning"
+  },
+  {
+    "start": 213.20000000000002,
+    "end": 219.28,
+    "text": "real-world tools like pandas, numpy and data visualizations. So everything in one package to prepare"
+  },
+  {
+    "start": 219.28,
+    "end": 224.08,
+    "text": "you to become a data analyst. So those two tracks are project based and going to help you to"
+  },
+  {
+    "start": 224.08,
+    "end": 229.20000000000002,
+    "text": "learn by doing directly at your browser. So if you are serious about learning Python the right way,"
+  },
+  {
+    "start": 229.20000000000002,
+    "end": 233.92000000000002,
+    "text": "then start with DataCab. And of course there are many other free options like for example you can"
+  },
+  {
+    "start": 233.92000000000002,
+    "end": 239.6,
+    "text": "follow my course on YouTube. I have already published 30 videos about Python where I have covered all"
+  },
+  {
+    "start": 239.6,
+    "end": 245.12,
+    "text": "the basic topics. It is made for total beginners even if you never programmed before. So again all"
+  },
+  {
+    "start": 245.12,
+    "end": 250.64,
+    "text": "what you have to do is now to pick only one course. Next you have to go and pick one tool. You can"
+  },
+  {
+    "start": 250.64,
+    "end": 257.52,
+    "text": "use Jupyter Notebook or Visual Studio Code, but I always recommend Visual Studio Code because that's"
+  },
+  {
+    "start": 257.52,
+    "end": 262.64,
+    "text": "what most professionals use in real projects. But if you are planning to be a data analyst it is"
+  },
+  {
+    "start": 262.64,
+    "end": 268.64,
+    "text": "totally okay to use notebooks. Then after that I want you to go and make a rough plan. You can go and"
+  },
+  {
+    "start": 268.64,
+    "end": 273.52,
+    "text": "use my free notion Python roadmap templates. You can find the link in the description. This is"
+  },
+  {
+    "start": 273.52,
+    "end": 278.96,
+    "text": "really nice because it can help you stay organized and as well to track your progress week by week"
+  },
+  {
+    "start": 278.96,
+    "end": 283.84,
+    "text": "and as well you can celebrate small wins. Now with that you have your setup ready and you can"
+  },
+  {
+    "start": 283.84,
+    "end": 289.59999999999997,
+    "text": "immediately start learning the basics of Python. So you're going to learn how to print how to get"
+  },
+  {
+    "start": 289.59999999999997,
+    "end": 294.96,
+    "text": "input from users. You're going to learn about variables and data types and how to control the flow"
+  },
+  {
+    "start": 294.96,
+    "end": 301.03999999999996,
+    "text": "using conditional statements and loops and about the data structures and functions. And once you"
+  },
+  {
+    "start": 301.03999999999996,
+    "end": 308.15999999999997,
+    "text": "cover those topics actually you are already learned about 80% of what we use in Python on daily basis."
+  },
+  {
+    "start": 308.15999999999997,
+    "end": 314.71999999999997,
+    "text": "And in this phase my tip for you don't try to memorize the syntax and everything just understand"
+  },
+  {
+    "start": 314.71999999999997,
+    "end": 320.79999999999995,
+    "text": "the idea behind it. And depend on your speed this way can take around three to four weeks."
+  },
+  {
+    "start": 320.8,
+    "end": 325.44,
+    "text": "Alright so now after we have learned all the basics I want you to go and close the course"
+  },
+  {
+    "start": 326.40000000000003,
+    "end": 332.8,
+    "text": "and now it's time to practice with AI like shadjivity. So now in this phase I want you to open on your"
+  },
+  {
+    "start": 332.8,
+    "end": 339.6,
+    "text": "screen only two things your editor and shadjivity. Every day you have to practice with AI and I want"
+  },
+  {
+    "start": 339.6,
+    "end": 344.96000000000004,
+    "text": "you to treat it like your coding partner. And now for you I was testing few prompts and I have"
+  },
+  {
+    "start": 344.96000000000004,
+    "end": 350.24,
+    "text": "prepared for you the following one. You can find it in notion roadmap. So in the prompt first we"
+  },
+  {
+    "start": 350.24,
+    "end": 355.6,
+    "text": "going to give some context like what you have already learned. With that it can create challenges"
+  },
+  {
+    "start": 355.6,
+    "end": 361.44,
+    "text": "at your level. After that you assigned for shadjivity the role the Python coach and then we"
+  },
+  {
+    "start": 361.44,
+    "end": 367.44,
+    "text": "going to ask shadjivity to challenge us. So to give us one exercise at a time and each one going"
+  },
+  {
+    "start": 367.44,
+    "end": 373.04,
+    "text": "to be slightly harder than the last and after that you send your code your solution to shadjivity so"
+  },
+  {
+    "start": 373.04,
+    "end": 378.16,
+    "text": "it review it gives you a feedback and maybe help you to improve it. So this is what we're going to do"
+  },
+  {
+    "start": 378.16,
+    "end": 383.20000000000005,
+    "text": "every day. Keep practicing challenging feedback and keep progressing. So that's it. In this"
+  },
+  {
+    "start": 383.20000000000005,
+    "end": 389.12,
+    "text": "phase you have to keep repeating this process. Challenge, practice, solution and feedback and I know"
+  },
+  {
+    "start": 389.12,
+    "end": 394.8,
+    "text": "sometimes you might get stuck with the AI. That's why I'm going to recommend you to go to that W3"
+  },
+  {
+    "start": 394.8,
+    "end": 400.40000000000003,
+    "text": "schools. They explain things in a really simple way and to be honest I used it for years"
+  },
+  {
+    "start": 400.40000000000003,
+    "end": 406.08000000000004,
+    "text": "in order to learn Python and as well I always go back to it if I need to check something. But now if you"
+  },
+  {
+    "start": 406.08,
+    "end": 412.47999999999996,
+    "text": "still stuck and you don't get it only then go open the course and watch an explanation. But only if"
+  },
+  {
+    "start": 412.47999999999996,
+    "end": 418.32,
+    "text": "you have tried and failed on your own because I want you in this phase to struggle to have hard time"
+  },
+  {
+    "start": 418.32,
+    "end": 422.96,
+    "text": "it is really the only way to learn something and for this phase I'm going to say spend between like"
+  },
+  {
+    "start": 422.96,
+    "end": 428.79999999999995,
+    "text": "one to two weeks every day only practicing with the AI. Alright friends so once you start feeling"
+  },
+  {
+    "start": 428.79999999999995,
+    "end": 435.12,
+    "text": "confident with coding it's time to pick your path. Python is really huge and you cannot learn everything"
+  },
+  {
+    "start": 435.12,
+    "end": 439.52,
+    "text": "and here you have to be really careful because I have seen a lot of people that trying to learn"
+  },
+  {
+    "start": 439.52,
+    "end": 445.2,
+    "text": "everything about Python and they ended up quitting. So think about it like doctors they have to learn"
+  },
+  {
+    "start": 445.2,
+    "end": 451.28000000000003,
+    "text": "first general topics and then they specialize on something you need to do exactly the same you have"
+  },
+  {
+    "start": 451.28000000000003,
+    "end": 456.48,
+    "text": "to pick one direction and then go deep. Like for example if you want to be a web developer then"
+  },
+  {
+    "start": 456.48,
+    "end": 462.4,
+    "text": "pick flask or fast API but if you want to be a data analyst then you have to learn pandas and"
+  },
+  {
+    "start": 463.12000000000006,
+    "end": 469.44000000000005,
+    "text": "with that engineers we usually learn PySpar for machine learning we learn tensor flow or PyTurk"
+  },
+  {
+    "start": 469.44000000000005,
+    "end": 473.92,
+    "text": "so as you can see it depends on your specialization once you pick your area you can"
+  },
+  {
+    "start": 473.92,
+    "end": 480.32000000000005,
+    "text": "pick one of the libraries you can learn the basics and then start experimenting now my tip for you"
+  },
+  {
+    "start": 480.32000000000005,
+    "end": 486.24,
+    "text": "don't rush it just understand what it does and how it is used so by the end of this phase you start"
+  },
+  {
+    "start": 486.24,
+    "end": 491.68000000000006,
+    "text": "feeling that you are like specialist in Python and I'm going to recommend for this phase to spend"
+  },
+  {
+    "start": 491.68,
+    "end": 497.6,
+    "text": "at least one month learning a Python library now my friends we come to the fun part and honestly"
+  },
+  {
+    "start": 497.6,
+    "end": 502.8,
+    "text": "the most important one we're going to go and build portfolio projects so go and create an account"
+  },
+  {
+    "start": 502.8,
+    "end": 508.88,
+    "text": "by a GitHub and create repositories if you don't have one and then start searching in GitHub for"
+  },
+  {
+    "start": 508.88,
+    "end": 514.24,
+    "text": "projects that fits your niche like for example if you are learning Python to become a data analyst"
+  },
+  {
+    "start": 514.24,
+    "end": 521.04,
+    "text": "then go and grab a data set ask business questions and then do full EDA projects but if you want to be"
+  },
+  {
+    "start": 521.04,
+    "end": 527.12,
+    "text": "a data engineer using Python then go and build small data link house where you extract transform"
+  },
+  {
+    "start": 527.12,
+    "end": 534.24,
+    "text": "and prepare the data but if you are into web development then go and create API or build your personal"
+  },
+  {
+    "start": 534.24,
+    "end": 541.36,
+    "text": "portfolio websites so whatever your niche is always upload everything to GitHub this is your public"
+  },
+  {
+    "start": 541.36,
+    "end": 547.4399999999999,
+    "text": "portfolio it is a proof that you don't just learn you build and my tip for you each time you are done"
+  },
+  {
+    "start": 547.44,
+    "end": 553.9200000000001,
+    "text": "with a project go to LinkedIn and share your success story this mini wins gonna help you to connect"
+  },
+  {
+    "start": 553.9200000000001,
+    "end": 559.7600000000001,
+    "text": "more to other people like you and as well it gonna keep you motivated so this phase is really important"
+  },
+  {
+    "start": 559.7600000000001,
+    "end": 565.7600000000001,
+    "text": "because it is the moment where you gonna feel I'm not just learning actually I am creator and I can"
+  },
+  {
+    "start": 565.7600000000001,
+    "end": 570.8000000000001,
+    "text": "tell you you can enjoy this phase because finally you can understand the overall picture and how"
+  },
+  {
+    "start": 570.8000000000001,
+    "end": 575.9200000000001,
+    "text": "everything is like connected together and you understand the why why you are learning those stuff"
+  },
+  {
+    "start": 575.92,
+    "end": 580.64,
+    "text": "and I recommend for this phase to stay at least two months just to win portfolio projects"
+  },
+  {
+    "start": 581.36,
+    "end": 587.52,
+    "text": "so my friends I don't have anymore cafe we have to recap so those are the exact phases that I have"
+  },
+  {
+    "start": 587.52,
+    "end": 593.1999999999999,
+    "text": "recommended my friend and I would follow if I had to learn Python all over again and remember this"
+  },
+  {
+    "start": 593.1999999999999,
+    "end": 598.3199999999999,
+    "text": "if you have been learning Python for six months and you haven't built anything really yet then you"
+  },
+  {
+    "start": 598.3199999999999,
+    "end": 605.12,
+    "text": "are not learning you are just consuming so always remember that 28 rule if you are learning more than"
+  },
+  {
+    "start": 605.12,
+    "end": 611.92,
+    "text": "practicing then you are doing a throne at the end the process is really simple learn little practice"
+  },
+  {
+    "start": 611.92,
+    "end": 618.16,
+    "text": "with AI build portfolio projects and share it and then repeat so if you like this type of content and"
+  },
+  {
+    "start": 618.16,
+    "end": 623.76,
+    "text": "you want me to make more then support the channel by subscribing liking and commenting this really"
+  },
+  {
+    "start": 623.76,
+    "end": 629.28,
+    "text": "helps to reach other people like you and by the way I have been very active in LinkedIn so follow me"
+  },
+  {
+    "start": 629.92,
+    "end": 635.68,
+    "text": "and you can subscribe as well to my weekly newsletter if you want to stay updated so at the end"
+  },
+  {
+    "start": 635.68,
+    "end": 647.68,
+    "text": "nothing left to say thank you so much for watching and I will see you in the next video bye bye"
+  }
+]
