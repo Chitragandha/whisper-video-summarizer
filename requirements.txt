@@ -1,0 +1,8 @@
+crewai
+streamlit
+faiss-cpu
+sentence-transformers
+openai
+faster-whisper
+numpy
+pandas
