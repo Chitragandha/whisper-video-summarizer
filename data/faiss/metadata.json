@@ -1,0 +1,322 @@
+[
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 0,
+    "start": 0.0,
+    "end": 61.400000000000006,
+    "text": "This video was brought to you by IndentlyIO. Learning Python made simple. How's it going everyone? In today's video we're going to be covering 10 Python concepts that you should know about. So, starting with the first concept. After you have downloaded Python from Python.org, or wherever you downloaded it from, you can create a file anywhere on your computer using the .py extension. For example, if we want to create our main script, we would just type in main as the name, and add the .py extension. This will make it a Py file or a Python file which will be executed by an interpreter. In Python, if you want to create a variable, you start by typing the variable name, followed by an equal sign and the value that you want to assign to that name. For example, here we can type in Bob. And Bob might have an age, so we can create another variable called age. And that's going to be 20. Now, if we ever want to use these, we can just refer to those variable names instead of"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 1,
+    "start": 61.400000000000006,
+    "end": 122.2,
+    "text": "hard coding in the values or typing them in by hand each time we want to use them. For example, using the print statement, we can print the name, comma, age. If I can spell that, I still can't spell that, age. And when we run it in the console, you should see that we were able to use both of those variables, which again is quite convenient because we can use these anywhere in the program. I mean, another example would be hello, my name is and then insert name. And we would get that as an output. In Python, we have many data types and the basic data types are integers, floats, strings, booleans, which can either be set to true or false. Then we have lists, tuples, sets and dictionaries. An integer is any whole number, while a float is any decimal number. A string is anything that's inside"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 2,
+    "start": 122.2,
+    "end": 183.04,
+    "text": "quotes, and that can be either single quotes or double quotes, and it just represents text. While a boolean is used to represent two states, either true or false. Then we have lists which can contain an arbitrary amount of elements. So in case you have a grocery list or a list of names, we have a way of handling that kind of data. After we have tuples, which are a lot like lists, except they are immutable, which means once you set the data, you can't add anything to it or remove anything from it. While with lists, you can perform many operations, such as adding elements and removing elements. After that, we have sets, which are quite similar to lists, except here you can not have any duplicates. Everything is guaranteed to be unique. And finally, we have dictionaries, which is the basic way representing key and value pairs. So here we have a name of Bob and an age of 20. In Python, we have the option to use type"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 3,
+    "start": 183.04,
+    "end": 244.56,
+    "text": "annotations. Type annotations are completely optional. And to show you what type annotations look like, let's create a simple example, such as name is equal to Bob. This is obviously a string, but we can also tell Python explicitly that this was meant to be a string by annotating it with the string type. And we can do the same thing for the age, we'll say age of type integer is equal to 11. But what you will notice is that if we insert something wrong, our code editor is going to give us a warning that we did not pass in the right type. And when your code gets more and more complex, these warnings become a life saver, because as programmers, we are bound to make mistakes eventually, whether it's because we are drunk, tired, or just not that attentive, we're bound to make a mistake eventually. And having these warnings help a lot because if we did not specify this to be of type integer, we would not get any warnings there. The code editor would not know what we were trying to do. So we would be able to do that."
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 4,
+    "start": 244.56,
+    "end": 310.0,
+    "text": "Even if it's not what we wanted. Although it's important to point out that even if we define this to be of type integer and we assigned it a string, the program is still going to run as normal. Type annotations do nothing in terms of how the program executes. They are just a tool for the developer. And my favorite analogy for using type annotations is the traffic lights. If you think about it when you're driving, a traffic light doesn't really do anything. It just has three colors that tell you when it's safe to drive through an intersection. It doesn't do anything at all. You can still drive through that intersection even if the lights are red. Sometimes that might go well and other times you might end up in an accident. So type annotations are kind of like the same thing. They do not prevent you from making terrible mistakes, but they warn you that you're about to make a mistake. Moving on. Constance. In Python, we don't really have any way of creating constants, but you can use type annotations along with the caps lock naming convention to show that it is a"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 5,
+    "start": 310.0,
+    "end": 371.04,
+    "text": "constant. For example, if we were to import from typing the final type, we can now tell Python using type annotations that we are creating a constant. For example, we might have a version number of type final of type string. And that's going to equal 1.0.12. And that would be the correct way to define a constant. Even without the type annotation, you will know it's a constant by the use of uppercase characters. But unfortunately, we can still change the constant. So we can say that the version is now 1.1. And your code editor will give you a warning only if you're using the final type. Because this type annotation explicitly tells the developer that this value or this variable should not be overwritten. So here we're going to get that warning. But otherwise you can even have a constant such as pi, which will be a type final of float. And that can be 3.1415. And that's another"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 6,
+    "start": 371.04,
+    "end": 433.35999999999996,
+    "text": "example of how you could create a constant in Python. Next, we're going to be looking at how we can create reusable code in Python. So to get started, I'm going to import from daytime the date and time. And what we want to do with this is show the user the current date and time. So we're going to print this is the current time. And we're going to print the date time dot. Now when we run this, we're going to get the following output. This is the current time with the current date and time. So that works perfectly fine. But if we ever want to reuse this, we're going to have the copy and paste this everywhere, which is a terrible idea. Because one day you might decide what if I wanted to type in this is the current time and date or date and time. Well, that's perfectly fine. We updated it where we had to. But the problem is it did not update in the other places, which sucks. Because now we need to manually waste our time going through our project, which could be thousands of lines long"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 7,
+    "start": 433.35999999999996,
+    "end": 495.92,
+    "text": "to fix all the occurrences. So this is where functions come in. And in Python to create a function, we use the dev keyword. So here we can type in show date. And this is going to return none. And then all we need to do is indent this code inside the function. Since Python uses significant indentation for its code blocks. But now thanks to that, we can just type in show date and duplicate that. And no matter how many times we use this function, it's always going to come from the same source, which means now we can type in this is the current date and remove the last bit. And it will update everywhere we use this function. Otherwise, if you want to make a function more customizable, you can provide parameters. And to do so, we can create another function called greet that takes a parameter called name. And that will be of type string. And once again, this will return none. And inside here, we can print the F string of hello name. So that the next time we want to use this"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 8,
+    "start": 495.92,
+    "end": 563.04,
+    "text": "function, we can say greet Bob, duplicate that and greet Luigi. And that will greet both of them using the parameter that we have specified, which is really nice because once again, if we ever need to apply any changes, we can do so here. We can say, Ciao, instead of hello. And the next time we run this, we will get two outputs with that update. And functions can even return results. For example, we might have a function called add that takes a of type float and B of type float because we want to add these two numbers together. And the intention with this is to return a float. Well, to do so, you just need to return that data type. So a plus B. And now if we were to print, let's say add one and two, this function would return a result, which means calling this function will give us back the result of three. And it's actually optional to define a return type. It just once again makes our code much more safe because if for whatever reason, we return the string of hello, our code editor is"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 9,
+    "start": 563.04,
+    "end": 625.12,
+    "text": "going to complain that hello was the wrong type. And if your function doesn't return anything, for example, if you're just printing hello, you can explicitly say that you are returning none, which just tells the developer that this function was only meant to be run and that they should not expect a return value from it. Moving on, we have the concept of classes. And to break down what a class is, a class is just a blueprint for code. But let's get started by creating the main components of a class to see how it works. And in Python to define a class, we use the class keyword followed by a name starting with an uppercase character. And this is how you would create a class. Now, obviously, it would be much more useful if this class could do something because all we did is insert an ellipses as a placeholder. So what we're going to do instead of that is define an initializer. And an initializer is used to set up an instance of the class, which means we're going to create an object from this class"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 10,
+    "start": 625.12,
+    "end": 688.8000000000001,
+    "text": "using some specific information and this specific information we want to use for each one of these cars in this class is what color the car should be, which will be of type string, and how much horse power that car has, which will be of type integer. And initializers return none by default, and they will always return none. But personally, I love to specify that. Now, inside the initializer, we need to assign these values to the instance of the car. And to do so, we need to use the self keyword. So self.color is going to equal color and self.horsepower is going to equal horse power. Now, with that being done, we can create a car called Volvo, which will be of type car. And the car is going to be a red car with 200 horsepower. So this part here is what we refer to as an instance of the class or an object of the class, because we are instantiating it with this specific information so that we can have a customized object. And what that means is that we can type in Volvo and refer to the color,"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 11,
+    "start": 688.8000000000001,
+    "end": 754.64,
+    "text": "or it would be more fitting to print that, and also the horse power. We can refer to those attributes which are related to the instance, so that when we run this, we will get that information back. As you could see, the class was just the blueprint for how that car should look. And with that blueprint, we can create several cars and it just simplifies that process. So instead of having a Volvo, or in addition, we could also have another car called BMW, which would be blue, and it would have the horse power of 240. Now we could print BMW with the color and horse power. And we would get the output for the BMW as well. So classes simplify the process of creating objects or code that has to be duplicated a lot. Because otherwise it would be quite difficult to create many different cars that all share the same attributes, or the same properties. But I'm going to remove all of this because what we're going to do next is learn about methods. And instead of color, I'm going to change this to brand."
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 12,
+    "start": 754.64,
+    "end": 817.68,
+    "text": "And the brand for Volvo is obviously going to be Volvo. Anyway, with this, we can actually go down inside our class and define a function. And a method is just a function that's inside a class. Anyway, here we're going to create a method called drive. And that's going to return none. Because what we're going to do is print that the self dot brand is driving. And what's important to note here is that we have self written everywhere. And self refers to the instance of the class. So here we have a Volvo. And we're referring to its attributes. So in other words, self is the Volvo. And if we had a BMW self would be the BMW, it refers to the instance. So if you actually want to refer to these values, you're going to have to use the self keyword. But we'll create one more method called get info. And that's going to return none. Because we're going to print self dot brand with self dot"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 13,
+    "start": 817.68,
+    "end": 884.08,
+    "text": "horsepower horsepower. And that's going to be our entire class. Now we have a class with some attributes and some methods. So with that, we can type in Volvo dot drive and Volvo dot get info. These are methods that we can use on that instance. And when we run that, we're going to see that the Volvo is driving and that it's a Volvo with 200 horsepower. And this can be used with any object of this class. So if we were to have a BMW once again, which will be of type car. And that was to be BMW with the 240 horsepower, we can now drive that BMW. As you can see, the BMW is driving. And also you're not limited to just using the information inside the class, but you can also define your own parameters in methods. So after the self keyword, anything you type in is going to be a normal parameter. And I'm just going to call this variable of type"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 14,
+    "start": 884.08,
+    "end": 944.64,
+    "text": "integer, just as an example, to show you that we can now use that. And to refer to it, you do not use the self keyword because this is included inside the method signature. So now the next time we actually use get info, we're going to have to also give it a value. And I'm going to remove the BMW and run this. So as you can see, now we have 10 and Volvo with 200 horsepower. We were able to use this information inside the method just by including it as a parameter. But let's remove all of that because the final concept I want to talk about in this video is the concept of dunder methods. And we're still going to have our Volvo car for this. But right now, I want to show you that if we were to print Volvo as it is, what we're going to get back is a car object, which is located at this memory address. And that information isn't that useful to anyone who's not a programmer. What if we actually want to get back the information that's inside the car?"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 15,
+    "start": 944.64,
+    "end": 1007.44,
+    "text": "Well, we can do so using a dunder method and a dunder method is just a double underscore method. So here we're going to define the string dunder method. And this is going to return a string. So what we're going to do is return the F string of self dot brand and self dot horsepower. HP. Now the next time we try to print this Volvo, what you're going to notice is that we're not going to get that complex object back. But we're actually going to get the string that we specified because now in any situation, we refer to it as a string. It's going to use the string dunder method. And another example of a dunder method would be if we wanted to add cars together, we could use the add dunder method. So this is going to take self and other, which is going to be the object that we want to add to the current object. And for this example, we're just going to return a string. Why not? So what we're going to do is return the F string of self dot brand and"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 16,
+    "start": 1007.44,
+    "end": 1068.08,
+    "text": "other dot brand. And if you actually want your code editor to give you suggestions for this, you would have to annotate this as self, which can be imported from the typing module. So from typing import self, other of type self. And that will lead you to this code completion, which contains brand and horsepower. Anyway, to make this work, we're going to have to create another car called BMW of type car, which will equal a car called BMW with 240 horsepower. Next, we can print Volvo plus BMW. And this dunder method is going to take care of the functionality of plus, which means that when we run this, we're going to get Volvo and BMW as an output without this dunder method. Python is not going to know how to handle this because it does not define the ad dunder method. And it actually warns you about that. But if we were to run it anyway, once again,"
+  },
+  {
+    "video_id": "10 Important Python Concepts In 20 Minutes",
+    "video_file": "10 Important Python Concepts In 20 Minutes.mp4",
+    "chunk_id": 17,
+    "start": 1068.08,
+    "end": 1128.0000000000002,
+    "text": "it would not know how to do that. So you can choose to define that in your class. And then it will work properly. And it's worth mentioning that there are a lot of dunder methods worth researching. Because obviously, maybe in the future, you will want to multiply cars. So for all of these operations, there's a dunder method for them, such as multiply. And once you define that, you'll be able to use this comfortably. But yeah, those were 10 Python concepts that are quite important. And this video was just an introduction to them. I still recommend you study these concepts more thoroughly. Do some more research online, watch some other YouTube videos regarding them. But otherwise, it should have been a great starting point for how the concepts in Python actually work. So yeah, let me know in the comment section down below whether you have any other questions or whether some concepts should have had some more explanation. But otherwise, with all that being said, as always, thanks for watching. And I'll see you in the next video."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 0,
+    "start": 0.0,
+    "end": 63.300000000000004,
+    "text": "What is up guys in this video, I'm going to be showing you how you can get started with Python in less than 10 minutes. And I'm going to be using Python 3.8 for this along with PyCharm as my code editor. You can just search these on Google and they will pop up immediately. They are free and open source. So definitely do check those out. Otherwise let's get started immediately with the first thing you should know in Python and that is how to assign values to variables. So to create a variable, all you have to do is decide on a name such as item and then you can just assign it a value. This is a string and a string is just any form of text for the program to read. And you also need to keep in mind that Python is a case sensitive language, which means item with a small i and item with a big i are going to mean absolutely different things. And also a naming convention in Python is to add an underscore every time you have more than one word. So if we say item name, you want to add this underscore over here and we can just say orange."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 1,
+    "start": 63.300000000000004,
+    "end": 126.9,
+    "text": "So now we have a few strings assigned to three different variables. Let's go ahead and print first the difference between item and item just to show you that there is a difference. So we'll go ahead and click on run. And you'll notice it will say banana and apple now let's go ahead and print another string which this time is going to be hello and we're going to add a plus and the item name. So as you can see, we can actually combine text and when we print that, it's going to say hello orange next. We have data types. So the first one is the integer, which is just any number and you're going to notice it being written in blue. Then we have strings, which as I showed you earlier is just any text inside quotation marks. Then we have bullions, which is just a simple true or false. So as you can see, we can just type in false here or true here. And that's all that it is. It just says true or false. And the final one you should know for getting started is list, which all you have to do is create a pair of angle brackets and insert the values you want inside here."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 2,
+    "start": 126.9,
+    "end": 189.1,
+    "text": "And it can be a mixture between numbers, bullions and so on. But for this example, we'll just keep it simple and write a few strings. Then if we go ahead and print these, you're going to notice that we will get 2021 text, false and the list. But let's move on to an example that we want to print these values combined. So let's say name is Mario, the string number is going to equal 22. So you're going to notice 2021 is a blue number and this one is green because this is considered text while this is considered an integer. So what we need to do is actually convert them into the correct types before combining them. So to do that, we can just go ahead and type in print name plus the string value of integer. So it's going to convert the integer to a string so that we can combine these two texts together. If we remove that and only write integer, you're going to notice we are going to get an exception that says we cannot do that. And the same thing goes for the string number. Pretend we want to add the value of 10 to the string number. The editor will be nice enough to tell you you shouldn't do that."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 3,
+    "start": 189.1,
+    "end": 250.7,
+    "text": "And we should just put some parentheses there and type in int ahead of that. So we can convert it to an integer and add it easily. Next, let's move on to math. So we will create two variables. One will be 10 and one will be five. And to do math in Python, it's very self explanatory. As you can see, to do addition, you just need to add a plus symbol for the difference. You just add a minus symbol to multiply. You add an asterix to divide you add a slash. And if you want the exponential power, just add two asterix. And you'll notice that if we print all of these, you're going to get a very quick calculator. So of course, 10 plus five is 15. A minus B is going to be five and so on. You'll get the values that correspond to those operators. Okay, next, let's go ahead and create a logic statement. So we're going to use these two values. So it's happy as false ages 28. Let's pretend we want something that happened if the age is more than 21. We'll say print you are old."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 4,
+    "start": 250.7,
+    "end": 313.8,
+    "text": "And if they are not old, we can also type in L. If the age is equal to 18, we will tell them you are getting old. And if it's neither of those, we can go ahead and say you are still young. And the same thing goes with the is happy statement. So if we type in if the person is happy, we can write you are happy. Else, they are probably not happy. So we will just write you are not happy. And when we play it, it's going to say they are not happy because is happy is false. And if we set this to true, it's going to change to you are happy. So the if statement just takes into account whether a statement is true or false. And depending on that, it's going to give the outcome of the values. And the if L statement is going to probably be your most used logic. Next, let's move on to the for loop. So for I in range of three, which means it's going to loop over three values. We want to print hello and we can add a comma here and the value of I."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 5,
+    "start": 313.8,
+    "end": 375.0,
+    "text": "So if we print this, you're going to notice it's going to say hello, zero, hello, one, hello, two. Because in programming, the index always starts at zero. So if you actually want that to start at one, you're going to have to manually add one to I. So now you get hello, one, hello, two, hello, three. And also just so you know what ranges we can go down here. And we can go ahead and type in print range of three. So you're going to notice it's going to create a range object, which is going to have the values from zero to three. So this can iterate three times over that. But you should also know that this works for lists. So we can create a name list. And we can type in for name in name list. We can print the name. Next, we have a while loop. So we're just going to type in I equals zero. And while I is less than five, we're going to increment the value of I by one each time it goes in this loop. And finally, we want to print the value of I. So what you should get are five values printed out just like this."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 6,
+    "start": 375.0,
+    "end": 435.50000000000006,
+    "text": "Because as soon as this statement becomes false, it's going to exit out of this loop and just terminate the program. But a reason to use this is because you can create an infinite loop, such as while true. And that's never going to be false. And inside here, we're going to type in user input. And that's going to equal an input that says enter something. And if the user input is equal to the string of zero, then we're going to print we are done here. And we are also going to break. And what break does is just cancel the loop, which means if we type in zero, this loop is no longer going to be valid and it's going to exit out of the program. Otherwise, it's going to loop forever. And if we actually play the program, you're going to notice that finally we can add some input so we can type in 10. We can do two. We can type in whatever that is. But as soon as we type in zero, it's going to exit the loop because it will reach this break statement and the program will finish moving on to functions."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 7,
+    "start": 435.50000000000006,
+    "end": 500.90000000000003,
+    "text": "To create a function, all you have to do is use the dev keyword and just name the function however you like. Of course, I'm going to use the underscore naming convention. And this function is only going to be used to say hello to the user. So here we can go ahead and type in print. Hey there and we're going to insert the name. So you might be wondering what are functions and what do we use functions for? Well, functions are just used to reuse your code in many different instances because the main point of programming is to reuse your code as much as possible. You want to maximize how often you can reuse the same line of code without having to rewrite it. So for example, now we created a function that says hello. We can type in Mario and we can also use it again. And we can type in Luigi. And when we run the program, it will say hey there Mario and hey there Luigi. Instead of writing this statement twice, we were able to just use one function to do it multiple times. And one thing we should cover also on functions is pretend you have a lot of functions you need to create such as get internet and run game, something such as that."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 8,
+    "start": 500.90000000000003,
+    "end": 564.2,
+    "text": "And you don't really have the logic for it yet. So you're going to notice that these are empty. If you run the program, you're going to get an error. But Python has created this keyword that is called pass, which essentially just says there's nothing in here. We accept that and your program is still going to be able to run regardless of having no content inside the function. Now when we tap on run, you're going to notice there are going to be no errors because the program is going to understand that we provided the keyword pass, which just tells it that there's nothing there and it accepts it. But this is very good for creating the blueprints later in case you need to write everything your program should do but don't really know how to do that yet. Just insert the word pass and it will save you a lot of trouble. And finally, we're going to go over how we can use the try and accept block. So for here, we're going to create an input and it's going to say, please provide a number. So now we're going to go ahead and type in try. And we're going to try to print the value plus the integer of the number that we get from the user."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 9,
+    "start": 564.2,
+    "end": 625.0,
+    "text": "And if that doesn't work, we're going to print that, that is not a valid number. So the way it works is it tries to execute the code that's inside here. And if anything goes wrong, if an exception occurs, it's going to go to the accept block and it's going to execute whatever's inside there. Of course, if you write something that throws an exception inside here, you need to try with another try and accept block. But if we go ahead and run the program now, we can write something like 10 add it's going to add 10 to the value. But of course, what if we write something such as Mario try adding Mario to 10 and the program is not going to be happy because you cannot convert Mario to an integer and then added to 10. So it's going to say you shouldn't do that, but don't worry because we have the exception covered and our program will say that is not a valid number and not throw an exception. But anyway, I really hope that helped you to get started with Python. Of course, there's a lot more to cover. This was just meant as a very quick guide for helping you to get started."
+  },
+  {
+    "video_id": "Learn Python in Less than 10 Minutes for Beginners",
+    "video_file": "Learn Python in Less than 10 Minutes for Beginners.mp4",
+    "chunk_id": 10,
+    "start": 625.0,
+    "end": 630.0,
+    "text": "And with that being said, have a wonderful day and I'll see you guys in the next video."
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 0,
+    "start": 0.0,
+    "end": 62.8,
+    "text": "Hey everyone, so one of my friends called me last week, he is actually switching careers and ask me this question, Barra tell me, what is the fastest way to learn Python and can you guide me with a roadmap? So I started drafting and sketching a roadmap for him and I thought why not sharing it with you? I learned Python about 10 years ago while I was working as a data engineer and an analyst, but the thing is it took me almost two years to feel confident with Python, but today things are totally different, we have amazing resources, we have AI tools, communities and experts that are sharing their knowledge that could help you reach an intermediate level in just a few months. So now I'm going to show you step by step how to learn Python fast. So let's dive in. Okay, now I know at the start you all have the same question, why we still have to learn Python and coding? When we have AI, AI can do it even better than us, well of course yes, AI can write code, but it also makes mistakes, sometimes dangerous ones,"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 1,
+    "start": 62.8,
+    "end": 130.56,
+    "text": "especially if you are working on big projects, no one actually takes an AI code straight away to the production, it is very risky. So that's why on projects we still need human experience to check if the answers make sense to review it and as well to make sure it is actually meeting their requirements. This is exactly why you need to understand what the code is doing, how to maintain it and how to fix it, and there is as well a key difference, there is a huge gap between consuming AI and building an AI. Python is the main language behind building and training AI models. So you can use AI to generate Python code, but you need Python in order to build an AI, and as well Python's still one of the most in demand language in the world, whether you are that engineer, analyst, scientist, web and game developer, we all use Python. So that's why you still have to learn Python. And now there is something that I want you to understand before you start learning Python, keep in mind this golden rule, spend 20% of your time consuming and 80% coding. So that's"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 2,
+    "start": 130.56,
+    "end": 191.68,
+    "text": "means my friend less watching and more doing because it is very simple, you don't learn Python by just watching someone else coding, you learn it by doing it yourself. So that's means my friend less watching and more doing. Alright my friends, so with that we have now the right mindset and now I'm going to show you the roadmap that I have shared with my friend and it is divided into five symbol faces. That first face is to prepare your setup and here we have to make a few small but important decisions. The third thing to do is to pick only one course so that you follow only one instructor and one style. And now since our golden rule says practice more than consuming, I'm going to recommend you DataCab if you are starting out with Python. It is super interactive, you're going to write code right inside the platform and you're going to get instant feedback as you go. Now DataCab is sponsoring this video. Thank you so much for that. I'm happy about it because they have built exactly what I wish I had when I started many years ago. Now if you are a total beginner, I'm going to"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 3,
+    "start": 191.68,
+    "end": 257.52,
+    "text": "recommend you to start with the Python Data Fundamentals. It covers all the basics, variable loops, how to work with data, but it's basically the same roadmap that I'm going to suggest actually later. So this track is for total beginners. Now moving on if you are planning to be a data analyst, then I'm going to recommend the track Data Analyst in Python. Here you're going to start learning real-world tools like pandas, numpy and data visualizations. So everything in one package to prepare you to become a data analyst. So those two tracks are project based and going to help you to learn by doing directly at your browser. So if you are serious about learning Python the right way, then start with DataCab. And of course there are many other free options like for example you can follow my course on YouTube. I have already published 30 videos about Python where I have covered all the basic topics. It is made for total beginners even if you never programmed before. So again all what you have to do is now to pick only one course. Next you have to go and pick one tool. You can use Jupyter Notebook or Visual Studio Code, but I always recommend Visual Studio Code because that's"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 4,
+    "start": 257.52,
+    "end": 320.79999999999995,
+    "text": "what most professionals use in real projects. But if you are planning to be a data analyst it is totally okay to use notebooks. Then after that I want you to go and make a rough plan. You can go and use my free notion Python roadmap templates. You can find the link in the description. This is really nice because it can help you stay organized and as well to track your progress week by week and as well you can celebrate small wins. Now with that you have your setup ready and you can immediately start learning the basics of Python. So you're going to learn how to print how to get input from users. You're going to learn about variables and data types and how to control the flow using conditional statements and loops and about the data structures and functions. And once you cover those topics actually you are already learned about 80% of what we use in Python on daily basis. And in this phase my tip for you don't try to memorize the syntax and everything just understand the idea behind it. And depend on your speed this way can take around three to four weeks."
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 5,
+    "start": 320.79999999999995,
+    "end": 383.20000000000005,
+    "text": "Alright so now after we have learned all the basics I want you to go and close the course and now it's time to practice with AI like shadjivity. So now in this phase I want you to open on your screen only two things your editor and shadjivity. Every day you have to practice with AI and I want you to treat it like your coding partner. And now for you I was testing few prompts and I have prepared for you the following one. You can find it in notion roadmap. So in the prompt first we going to give some context like what you have already learned. With that it can create challenges at your level. After that you assigned for shadjivity the role the Python coach and then we going to ask shadjivity to challenge us. So to give us one exercise at a time and each one going to be slightly harder than the last and after that you send your code your solution to shadjivity so it review it gives you a feedback and maybe help you to improve it. So this is what we're going to do every day. Keep practicing challenging feedback and keep progressing. So that's it. In this"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 6,
+    "start": 383.20000000000005,
+    "end": 445.2,
+    "text": "phase you have to keep repeating this process. Challenge, practice, solution and feedback and I know sometimes you might get stuck with the AI. That's why I'm going to recommend you to go to that W3 schools. They explain things in a really simple way and to be honest I used it for years in order to learn Python and as well I always go back to it if I need to check something. But now if you still stuck and you don't get it only then go open the course and watch an explanation. But only if you have tried and failed on your own because I want you in this phase to struggle to have hard time it is really the only way to learn something and for this phase I'm going to say spend between like one to two weeks every day only practicing with the AI. Alright friends so once you start feeling confident with coding it's time to pick your path. Python is really huge and you cannot learn everything and here you have to be really careful because I have seen a lot of people that trying to learn everything about Python and they ended up quitting. So think about it like doctors they have to learn"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 7,
+    "start": 445.2,
+    "end": 508.88,
+    "text": "first general topics and then they specialize on something you need to do exactly the same you have to pick one direction and then go deep. Like for example if you want to be a web developer then pick flask or fast API but if you want to be a data analyst then you have to learn pandas and with that engineers we usually learn PySpar for machine learning we learn tensor flow or PyTurk so as you can see it depends on your specialization once you pick your area you can pick one of the libraries you can learn the basics and then start experimenting now my tip for you don't rush it just understand what it does and how it is used so by the end of this phase you start feeling that you are like specialist in Python and I'm going to recommend for this phase to spend at least one month learning a Python library now my friends we come to the fun part and honestly the most important one we're going to go and build portfolio projects so go and create an account by a GitHub and create repositories if you don't have one and then start searching in GitHub for"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 8,
+    "start": 508.88,
+    "end": 570.8000000000001,
+    "text": "projects that fits your niche like for example if you are learning Python to become a data analyst then go and grab a data set ask business questions and then do full EDA projects but if you want to be a data engineer using Python then go and build small data link house where you extract transform and prepare the data but if you are into web development then go and create API or build your personal portfolio websites so whatever your niche is always upload everything to GitHub this is your public portfolio it is a proof that you don't just learn you build and my tip for you each time you are done with a project go to LinkedIn and share your success story this mini wins gonna help you to connect more to other people like you and as well it gonna keep you motivated so this phase is really important because it is the moment where you gonna feel I'm not just learning actually I am creator and I can tell you you can enjoy this phase because finally you can understand the overall picture and how"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 9,
+    "start": 570.8000000000001,
+    "end": 635.68,
+    "text": "everything is like connected together and you understand the why why you are learning those stuff and I recommend for this phase to stay at least two months just to win portfolio projects so my friends I don't have anymore cafe we have to recap so those are the exact phases that I have recommended my friend and I would follow if I had to learn Python all over again and remember this if you have been learning Python for six months and you haven't built anything really yet then you are not learning you are just consuming so always remember that 28 rule if you are learning more than practicing then you are doing a throne at the end the process is really simple learn little practice with AI build portfolio projects and share it and then repeat so if you like this type of content and you want me to make more then support the channel by subscribing liking and commenting this really helps to reach other people like you and by the way I have been very active in LinkedIn so follow me and you can subscribe as well to my weekly newsletter if you want to stay updated so at the end"
+  },
+  {
+    "video_id": "videoplayback (2)",
+    "video_file": "videoplayback (2).mp4",
+    "chunk_id": 10,
+    "start": 635.68,
+    "end": 647.68,
+    "text": "nothing left to say thank you so much for watching and I will see you in the next video bye bye"
+  }
+]
